@@ -1,0 +1,35 @@
+name: Sync public repository descriptions
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 5 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Pull public GitHub descriptions and regenerate cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/sync_repositories.py
+      - name: Commit updated profile assets if changed
+        run: |
+          if [ -n "$(git status --porcelain -- README.md assets/projects)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md assets/projects
+            git commit -m "chore(profile): refresh public GitHub descriptions"
+            git push
+          else
+            echo "Repository metadata unchanged."
+          fi

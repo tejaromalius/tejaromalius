@@ -1,0 +1,9 @@
+[
+  {"owner":{"login":"tejaromalius-labs"},"name":"Comprenchmark","description":"Benchmarking Zstandard, Brotli, LZ4, gzip, and LZMA on Six Real-Shaped Workloads","private":false,"archived":false,"fork":false},
+  {"owner":{"login":"tejaromalius-labs"},"name":"BitonicBreaker","description":"A high-performance parallel and serial sorting benchmark library","private":false,"archived":false,"fork":false},
+  {"owner":{"login":"tejaromalius-contributes"},"name":"Adaptive-Tab-Bar-Colour-Asus-Edition","description":"Changes the colour of Firefox theme and Asus laptop's keyboard to match the website’s appearance","private":false,"archived":false,"fork":true},
+  {"owner":{"login":"tejaromalius-snax"},"name":"PilotFan","description":"When your laptop sounds like it's about to take off, it might as well look the part","private":false,"archived":false,"fork":false},
+  {"owner":{"login":"tejaromalius-snax"},"name":"SmartToDock","description":"a GNOME Shell extension that intelligently manages and updates the pinned apps in your Ubuntu Dock","private":false,"archived":false,"fork":false},
+  {"owner":{"login":"tejaromalius-snax"},"name":"Tigit","description":"Generate creative Git tags and semantic version tags with random category-based names","private":false,"archived":false,"fork":false},
+  {"owner":{"login":"tejaromalius-snax"},"name":"Scribdify","description":"Firefox add-on to view Scribd content","private":false,"archived":false,"fork":false}
+]
