@@ -32,6 +32,10 @@ I build things, benchmark ideas, work on developer tooling, and occasionally mak
 <td width="50%" valign="top"><a href="https://github.com/tejaromalius-labs/Comprenchmark"><img src="./assets/projects/tejaromalius-labs--Comprenchmark.svg" alt="Comprenchmark: Benchmarking Zstandard, Brotli, LZ4, gzip, and LZMA on Six Real-Shaped Workloads" width="100%" /></a></td>
 <td width="50%" valign="top"><a href="https://github.com/tejaromalius-labs/BitonicBreaker"><img src="./assets/projects/tejaromalius-labs--BitonicBreaker.svg" alt="BitonicBreaker: A high-performance parallel and serial sorting benchmark library" width="100%" /></a></td>
 </tr>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/tejaromalius-labs/CuckooFiltersBarcodes"><img src="./assets/projects/tejaromalius-labs--CuckooFiltersBarcodes.svg" alt="CuckooFiltersBarcodes: Bench &amp; case study of Cuckoo Filter structure w/ Blake3 and xxHash3 setups for handheld terminals responsible for scanning and verifying barcodes stored in an ERP system" width="100%" /></a></td>
+<td width="50%"></td>
+</tr>
 </tbody></table>
 
 #### `CONTRIBUTES / OPEN SOURCE`
