@@ -33,8 +33,8 @@ I build things, benchmark ideas, work on developer tooling, and occasionally mak
 <td width="50%" valign="top"><a href="https://github.com/tejaromalius-labs/BitonicBreaker"><img src="./assets/projects/tejaromalius-labs--BitonicBreaker.svg" alt="BitonicBreaker: A high-performance parallel and serial sorting benchmark library" width="100%" /></a></td>
 </tr>
 <tr>
+<td width="50%" valign="top"><a href="https://github.com/tejaromalius-labs/CelestialTerminal"><img src="./assets/projects/tejaromalius-labs--CelestialTerminal.svg" alt="CelestialTerminal: Ubuntu on the Motorola Moto G9 Plus stacked on Android&#x27;s kernel" width="100%" /></a></td>
 <td width="50%" valign="top"><a href="https://github.com/tejaromalius-labs/ProjectJanus"><img src="./assets/projects/tejaromalius-labs--ProjectJanus.svg" alt="ProjectJanus: Context-aware LinUCB bandit for load balancing across Kubernetes clusters" width="100%" /></a></td>
-<td width="50%" valign="top"><a href="https://github.com/tejaromalius-labs/CuckooFiltersBarcodes"><img src="./assets/projects/tejaromalius-labs--CuckooFiltersBarcodes.svg" alt="CuckooFiltersBarcodes: Bench &amp; case study of Cuckoo filter structure w/ Blake3 and xxHash3 algorithms for handheld terminals responsible for scanning and verifying barcodes stored in an ERP system" width="100%" /></a></td>
 </tr>
 </tbody></table>
 
